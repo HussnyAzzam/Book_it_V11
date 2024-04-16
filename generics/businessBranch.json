@@ -1,0 +1,25 @@
+{
+    "base": "/business-branch",
+    "routes": {
+        "getAll": {
+            "name": "Get All Business Branches",
+            "path": ""
+        },
+        "getById": {
+            "name": "Get Business Branch By Id",
+            "path": "/:id"
+        },
+        "create": {
+            "name": "Create Business Branch",
+            "path": "/create"
+        },
+        "updateById": {
+            "name": "Update Business Branch By Id",
+            "path": "/update/:id"
+        },
+        "deleteById": {
+            "name": "Delete Business Branch By Id",
+            "path": "/delete/:id"
+        }
+    }
+}

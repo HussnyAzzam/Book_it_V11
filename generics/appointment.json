@@ -1,0 +1,63 @@
+{
+    "base": "/appointments",
+    "routes": {
+        "getAll": {
+            "name": "Get All Appointments",
+            "path": ""
+        },
+        "getById": {
+            "name": "Get Appointment By Id",
+            "path": "/:id"
+        },
+        "getSlots": {
+            "name": "Get Slots",
+            "path": "/slots"
+        },
+        "create":{
+            "name": "Create Appointment",
+            "path": "/create"
+        },
+        "updateById": {
+            "name": "Update Appointment By Id",
+            "path": "/update/:id"
+        },
+        "updateAppointmentStatus": {
+            "name": "Update Appointment Status By Id",
+            "path": "/update-status/:id"
+        },
+        "deleteById": {
+            "name": "Delete Appointment By Id",
+            "path": "/delete/:id"
+        }
+    },
+    "externalRoutes": {
+        "getAll": {
+            "name": "Get All Appointments",
+            "path": ""
+        },
+        "getSlots": {
+            "name": "Get Slots",
+            "path": "/slots"
+        },
+        "getById": {
+            "name": "Get Appointment By Id",
+            "path": ""
+        },
+        "create":{
+            "name": "Create Appointment",
+            "path": "/"
+        },
+        "updateById": {
+            "name": "Update Appointment By Id",
+            "path": ""
+        },
+        "updateAppointmentStatus": {
+            "name": "Update Appointment Status By Id",
+            "path": ""
+        },
+        "deleteById": {
+            "name": "Delete Appointment By Id",
+            "path": ""
+        }
+    }
+}

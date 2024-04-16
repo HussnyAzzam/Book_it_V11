@@ -1,0 +1,25 @@
+{
+    "base": "/admin-user",
+    "routes": {
+        "getAll": {
+            "name": "Get All Admin Users",
+            "path": ""
+        },
+        "getById": {
+            "name": "Get Admin User By Id",
+            "path": "/:id"
+        },
+        "create": {
+            "name": "Create Admin User",
+            "path": "/create"
+        },
+        "updateById": {
+            "name": "Update Admin User By Id",
+            "path": "/update/:id"
+        },
+        "deleteById": {
+            "name": "Delete Admin User By Id",
+            "path": "/delete/:id"
+        }
+    }
+}

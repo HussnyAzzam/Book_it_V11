@@ -1,0 +1,25 @@
+{
+    "base": "/packages",
+    "routes": {
+        "getAll": {
+            "name": "Get All Packages",
+            "path": ""
+        },
+        "getById": {
+            "name": "Get Package By Id",
+            "path": "/:id"
+        },
+        "create": {
+            "name": "Create Package",
+            "path": "/create"
+        },
+        "updateById": {
+            "name": "Update Package By Id",
+            "path": "/update/:id"
+        },
+        "deleteById": {
+            "name": "Delete Package By Id",
+            "path": "/delete/:id"
+        }
+    }
+}

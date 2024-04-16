@@ -1,0 +1,33 @@
+{
+    "base": "/users",
+    "routes": {
+        "getAll": {
+            "name": "Get All Users",
+            "path": ""
+        },
+        "getById": {
+            "name": "Get User By Id",
+            "path": "/:id",
+            "fields": ["id"]
+        },
+        "create":{
+            "name": "Create User",
+            "path": "/create",
+            "fields": []
+        },
+        "updateById": {
+            "name": "Update User By Id",
+            "path": "/update/:id",
+            "fields": ["id"]
+        },
+        "deleteById": {
+            "name": "Delete User By Id",
+            "path": "/delete/:id",
+            "fields": ["id"]
+        },
+        "makeAdmin": {
+            "name": "Make User an Admin",
+            "path": "/make-admin"
+        }
+    }
+}

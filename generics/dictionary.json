@@ -1,0 +1,25 @@
+{
+    "base": "/dictionary",
+    "routes": {
+        "getAll": {
+            "name": "Get All Dictionaries",
+            "path": ""
+        },
+        "getById": {
+            "name": "Get Dictionary By Id",
+            "path": "/:id"
+        },
+        "create":{
+            "name": "Create Dictionary",
+            "path": "/create"
+        },
+        "updateById": {
+            "name": "Update Dictionary By Id",
+            "path": "/update/:id"
+        },
+        "deleteById": {
+            "name": "Delete Dictionary By Id",
+            "path": "/delete/:id"
+        }
+    }
+}

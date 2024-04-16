@@ -1,0 +1,25 @@
+{
+    "base": "/businesses",
+    "routes": {
+        "create":{
+            "name": "Create Business",
+            "path": "/create"
+        },
+        "getAll": {
+            "name": "Get All Businesss",
+            "path": ""
+        },
+        "getById": {
+            "name": "Get Business By Id",
+            "path": "/:id"
+        },
+        "updateById": {
+            "name": "Update Business By Id",
+            "path": "/update/:id"
+        },
+        "deleteById": {
+            "name": "Delete Business By Id",
+            "path": "/delete/:id"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "base": "/categories",
+    "routes": {
+        "getAll": {
+            "name": "Get All Categories",
+            "path": ""
+        },
+        "getById": {
+            "name": "Get Category By Id",
+            "path": "/:id"
+        },
+        "create": {
+            "name": "Create Category",
+            "path": "/create"
+        },
+        "updateById": {
+            "name": "Update Category By Id",
+            "path": "/update/:id"
+        },
+        "deleteById": {
+            "name": "Delete Category By Id",
+            "path": "/delete/:id"
+        }
+    }
+}

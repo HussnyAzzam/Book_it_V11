@@ -1,0 +1,25 @@
+{
+    "base": "/external-customers",
+    "routes": {
+        "getAll": {
+            "name": "Get All External Customers",
+            "path": ""
+        },
+       "getById": {
+            "name": "Get External Customer By Id",
+            "path": "/:id"
+        },
+        "create": {
+            "name": "Create External Customer",
+            "path": "/create"
+        },
+        "updateById": {
+            "name": "Update External Customer By Id",
+            "path": "/update/:id"
+        },
+        "deleteById": {
+            "name": "Delete External Customer By Id",
+            "path": "/delete/:id"
+        }
+    }
+}

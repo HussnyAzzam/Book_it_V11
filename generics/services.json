@@ -1,0 +1,25 @@
+{
+    "base": "/services",
+    "routes": {
+        "getAll": {
+            "name": "Get All Services",
+            "path": ""
+        },
+        "getById": {
+            "name": "Get Service By Id",
+            "path": "/:id"
+        },
+        "create":{
+            "name": "Create Service",
+            "path": "/create"
+        },
+        "updateById":{
+            "name": "Update Service By Id",
+            "path": "/update/:id"
+        },
+        "deleteById": {
+            "name": "Delete Service By Id",
+            "path": "/delete/:id"
+        }
+    }
+}

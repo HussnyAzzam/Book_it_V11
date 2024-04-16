@@ -1,0 +1,29 @@
+{
+    "base": "/persons",
+    "routes": {
+        "getAll": {
+            "name": "Get All Persons",
+            "path": ""
+        },
+        "getById": {
+            "name": "Get Person By Id",
+            "path": "/:id",
+            "fields": ["id"]
+        },
+        "create":{
+            "name": "Create Person",
+            "path": "/create",
+            "fields": ["fName", "lName", "phone", "mobile"]
+        },
+       "updateById": {
+            "name": "Update Person By Id",
+            "path": "/update/:id",
+            "fields": ["id"]
+        },
+        "deleteById": {
+            "name": "Delete Person By Id",
+            "path": "/delete/:id",
+            "fields": ["id"]
+        }
+    }
+}
